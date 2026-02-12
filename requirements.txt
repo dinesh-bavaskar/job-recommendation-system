@@ -1,5 +1,7 @@
 flask
+flask_sqlalchemy
+flask_login
 pandas
 scikit-learn
 numpy
-pickle-mixin
+gunicorn
