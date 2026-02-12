@@ -1,51 +1,79 @@
-<<<<<<< HEAD
-# job-recommendation-system
-=======
-# Job Recommendation System
+# 🚀 Job Recommendation System
 
-This is a **Job Recommendation System** that suggests jobs based on user skills using **Machine Learning**. It is built with **Flask, SQLite, and Scikit-Learn**.
+🌍 **Live Demo:**  
+👉 https://job-recommendation-system-jka5.onrender.com
 
-##  Features
-- User authentication (Register, Login, Logout)
-- Job recommendation using **cosine similarity**
-- Secure password storage with hashing
-- Web-based UI using Flask templates
-- Job dataset stored as a pickle file (`job_data.pkl`)
+---
 
-## 🛠 Technologies Used
-- **Python** (Flask, Scikit-Learn, Pandas)
-- **SQLite** (Database for authentication)
-- **HTML, CSS** (Frontend)
-- **Pickle** (For storing ML models)
-- **Git & GitHub** (Version control)
+## 📌 Project Overview
 
-##  Installation Guide
+The **Job Recommendation System** is a web-based application that intelligently recommends jobs based on user skills using **Machine Learning**.
 
-### 1️⃣ Clone the Repository
+The system analyzes skill similarity using **TF-IDF Vectorization** and **Cosine Similarity**, delivering personalized job suggestions.
 
-git clone https://github.com/Dinu35/job-recommendation-system.git
-cd job-recommendation
-```sh
-2️⃣ Create & Activate Virtual Environment
+---
 
-python -m venv venv  # Create virtual environment
+## ✨ Key Features
 
-source venv/bin/activate  # Activate on Mac/Linux
+✅ User Registration & Login Authentication  
+✅ Skill-Based Job Recommendations  
+✅ Machine Learning Similarity Matching  
+✅ Clean & Modern UI  
+✅ Flask Backend Integration  
+✅ Live Cloud Deployment  
 
-venv\Scripts\activate  # Activate on Windows
+---
 
-3️⃣ Install Dependencies
-pip install -r requirements.txt
+## 🛠️ Tech Stack
 
-4️⃣ Set Up the Database
+**Frontend:**  
+- HTML5  
+- CSS3  
+- Bootstrap  
 
-python create_db.py
+**Backend:**  
+- Flask  
+- Flask-Login  
+- Flask-SQLAlchemy  
 
-#Train the model
- python train.py
+**Machine Learning:**  
+- Scikit-Learn  
+- Pandas  
+- NumPy  
 
-5️⃣ Run the Application
-python app.py
+**Deployment:**  
+- Render Cloud Platform  
+- Gunicorn  
 
-Now, open your browser and go to http://127.0.0.1:5000/.
->>>>>>> 6039fe3 (Initial commit with .gitignore)
+---
+
+## 🧠 How It Works
+
+1️⃣ User logs into the system  
+2️⃣ User enters skills (e.g., Python, SQL)  
+3️⃣ Skills converted into vectors using TF-IDF  
+4️⃣ Cosine Similarity calculates best matches  
+5️⃣ Top job recommendations displayed  
+
+---
+
+## 📷 Application Screens
+
+### 🔹 Home Page
+Modern UI with skill input & recommendations
+
+### 🔹 Authentication System
+Secure login & registration flow
+
+### 🔹 Recommendation Engine
+Machine learning-based matching system
+
+---
+
+## 🚀 Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/dinesh-bavaskar/job-recommendation-system.git
+cd job-recommendation-system
